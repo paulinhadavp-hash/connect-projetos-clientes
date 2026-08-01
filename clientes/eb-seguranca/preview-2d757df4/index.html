@@ -53,6 +53,7 @@
   .section-head h2{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:700;margin-top:10px;color:var(--ink);}
   .section-head p{color:var(--muted);margin-top:14px;font-size:1.02rem;}
 
+
   /* Viewfinder corner-bracket signature element */
   .viewfinder{position:relative;}
   .viewfinder::before,.viewfinder::after,
@@ -65,6 +66,7 @@
   .viewfinder .vf-bl{bottom:-1px;left:-1px;border-width:0 0 2px 2px;border-radius:0 0 0 6px;}
   .viewfinder .vf-br{bottom:-1px;right:-1px;border-width:0 2px 2px 0;border-radius:0 0 6px 0;}
 
+
   /* Buttons */
   .btn{
     display:inline-flex;align-items:center;justify-content:center;gap:10px;
@@ -76,6 +78,7 @@
   .btn-outline{background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.55);}
   .btn-outline:hover{background:rgba(255,255,255,0.1);}
   .btn-block{width:100%;}
+
 
   /* Header */
   header{
@@ -106,6 +109,7 @@
   .ig-btn svg{width:19px;height:19px;}
   .nav-right{display:flex;align-items:center;gap:12px;}
 
+
   /* Hero */
   .hero{position:relative;background:var(--blue-deep);overflow:hidden;padding:64px 0 60px;}
   .hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.42;}
@@ -125,10 +129,12 @@
   .trust-item .num{font-family:'Sora';font-weight:800;font-size:1.5rem;color:#fff;}
   .trust-item .lbl{font-size:12px;color:rgba(255,255,255,0.65);font-weight:600;text-transform:uppercase;letter-spacing:0.04em;margin-top:2px;}
 
+
   /* Reveal */
   .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease;}
   .reveal.is-visible{opacity:1;transform:translateY(0);}
   @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;}}
+
 
   /* Pain strip */
   .pain{background:var(--card);border-bottom:1px solid var(--line);}
@@ -138,6 +144,7 @@
   .pain-ico{flex-shrink:0;width:42px;height:42px;border-radius:10px;background:#FCE9E9;display:flex;align-items:center;justify-content:center;font-size:1.2rem;}
   .pain-card h3{font-size:1rem;font-weight:700;margin-bottom:4px;}
   .pain-card p{font-size:0.92rem;color:var(--muted);}
+
 
   /* Services */
   .services-grid{display:grid;grid-template-columns:1fr;gap:20px;}
@@ -159,6 +166,7 @@
   .service-card li{font-size:0.88rem;color:var(--muted);display:flex;gap:8px;align-items:flex-start;}
   .service-card li::before{content:"—";color:var(--blue);flex-shrink:0;}
 
+
   /* Photo showcase */
   .photo-strip{background:var(--blue-deep);}
   .photo-grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:36px;}
@@ -174,6 +182,7 @@
   .photo-strip .section-head p{color:rgba(255,255,255,0.72);}
   .photo-strip .eyebrow{color:#8CB8EA;}
 
+
   /* Differentials */
   .diff-grid{display:grid;grid-template-columns:1fr;gap:20px;}
   @media(min-width:760px){.diff-grid{grid-template-columns:repeat(2,1fr);}}
@@ -184,6 +193,7 @@
   }
   .diff-item h3{font-size:1.02rem;font-weight:700;margin-bottom:4px;}
   .diff-item p{font-size:0.92rem;color:var(--muted);}
+
 
   /* About / technician */
   .about-card{
@@ -201,11 +211,13 @@
   .about-card .role{color:var(--muted);font-size:0.95rem;margin-top:2px;margin-bottom:14px;}
   .cft-badge{display:inline-block;background:var(--blue-soft);color:var(--blue);font-size:12.5px;font-weight:700;padding:5px 13px;border-radius:100px;}
 
+
   /* Coverage */
   .coverage{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
   .coverage-inner{display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px;}
   @media(min-width:700px){.coverage-inner{flex-direction:row;text-align:left;justify-content:space-between;}}
   .coverage-badge{width:56px;height:56px;border-radius:14px;background:var(--blue-soft);display:flex;align-items:center;justify-content:center;font-size:1.6rem;flex-shrink:0;}
+
 
   /* FAQ */
   details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:19px 22px;margin-bottom:12px;}
@@ -218,6 +230,7 @@
   details[open] summary::after{content:"–";}
   details p{margin-top:13px;color:var(--muted);font-size:0.92rem;}
 
+
   /* Final CTA */
   .final-cta{
     background:linear-gradient(165deg,var(--blue),var(--blue-deep));
@@ -225,6 +238,7 @@
   }
   .final-cta h2{color:#fff;font-size:clamp(1.5rem,3.4vw,2.1rem);margin-bottom:14px;}
   .final-cta p{color:rgba(255,255,255,0.82);max-width:520px;margin:0 auto 28px;}
+
 
   /* Footer */
   footer{background:var(--blue-deep);color:rgba(255,255,255,0.78);padding:52px 0 28px;}
@@ -240,10 +254,12 @@
   .foot-ig-row .ig-btn svg{width:16px;height:16px;}
   .foot-bottom{border-top:1px solid rgba(255,255,255,0.12);margin-top:36px;padding-top:20px;font-size:12px;color:rgba(255,255,255,0.5);text-align:center;}
 
+
   .brand-pill{
     background:var(--blue-soft);color:var(--blue-deep);font-family:'Sora';font-weight:700;
     font-size:15px;padding:10px 22px;border-radius:100px;border:1px solid var(--line);
   }
+
 
   /* Floating WhatsApp */
   .float-wa{
@@ -256,6 +272,7 @@
 </style>
 </head>
 <body>
+
 
 <header>
   <div class="nav">
@@ -279,6 +296,7 @@
   </div>
 </header>
 
+
 <section class="hero">
   <video class="hero-video" autoplay muted loop playsinline>
     <source src="https://videos.pexels.com/video-files/7255101/7255101-uhd_2732_1440_30fps.mp4" type="video/mp4">
@@ -299,6 +317,7 @@
     </div>
   </div>
 </section>
+
 
 <section class="pain">
   <div class="wrap">
@@ -339,6 +358,7 @@
     </div>
   </div>
 </section>
+
 
 <section id="servicos">
   <div class="wrap">
@@ -415,6 +435,7 @@
   </div>
 </section>
 
+
 <section class="photo-strip">
   <div class="wrap">
     <div class="section-head center">
@@ -441,6 +462,7 @@
   </div>
 </section>
 
+
 <section style="background:var(--card);border-bottom:1px solid var(--line);padding:48px 0;">
   <div class="wrap">
     <div class="section-head center" style="margin-bottom:26px;">
@@ -456,6 +478,7 @@
     </div>
   </div>
 </section>
+
 
 <section id="diferenciais">
   <div class="wrap">
@@ -503,6 +526,7 @@
   </div>
 </section>
 
+
 <section id="sobre" style="background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
   <div class="wrap">
     <div class="section-head center">
@@ -521,6 +545,7 @@
   </div>
 </section>
 
+
 <section class="coverage">
   <div class="wrap coverage-inner">
     <div style="display:flex;gap:16px;align-items:center;">
@@ -533,6 +558,7 @@
     <a class="btn btn-wa" href="https://wa.me/5521985072180?text=Ol%C3%A1!%20Gostaria%20de%20saber%20se%20voc%C3%AAs%20atendem%20a%20minha%20regi%C3%A3o." target="_blank" rel="noopener">Confirmar atendimento</a>
   </div>
 </section>
+
 
 <section id="faq">
   <div class="wrap" style="max-width:760px;">
@@ -563,6 +589,7 @@
   </div>
 </section>
 
+
 <section>
   <div class="wrap">
     <div class="final-cta">
@@ -572,6 +599,7 @@
     </div>
   </div>
 </section>
+
 
 <footer>
   <div class="wrap foot-grid">
@@ -586,7 +614,7 @@
     <div>
       <h4>Contato</h4>
       <p><a href="https://wa.me/5521985072180" target="_blank" rel="noopener">(21) 98507-2180</a></p>
-      <p><a href="mailto:ebsegurancaeletronica@gmail.com">ebsegurancaeletronica@gmail.com</a></p>
+      <p><a href="mailto:contato@ebsegurancaeletronica.com.br">contato@ebsegurancaeletronica.com.br</a></p>
       <div class="foot-ig-row">
         <a class="ig-btn" href="https://www.instagram.com/ebsegurancaeletronicaltda" target="_blank" rel="noopener" aria-label="Instagram da EB Segurança Eletrônica">
           <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg>
@@ -605,7 +633,9 @@
   </div>
 </footer>
 
+
 <a class="float-wa" href="https://wa.me/5521985072180?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20saber%20mais!" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">💬</a>
+
 
 <script>
 (function(){
@@ -626,6 +656,7 @@
   }
 })();
 </script>
+
 
 </body>
 </html>
